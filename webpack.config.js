@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const isProd = process.argv.indexOf('--mode=production') >= 0;
 var webpack = require('webpack');
-
+// 测试
 module.exports = [
     {
         target: "node",
